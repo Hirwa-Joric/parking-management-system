@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+
+# Saved plates images (too many images)
+plates/*.jpg
+
+# Log files
+*.log
+plates_log.csv
+
+# Model weights (too large)
+*.pt
+weights/
+
+# Virtual Environment
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Nested directories (to clean up repo)
+parking-management-system/
+__MACOSX/
+.git/ 
